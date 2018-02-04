@@ -13,6 +13,7 @@ class UserController extends Controller
 {
     public function actionIndex()
     {
+        //new
         return $this->render('index');
     }
 }
